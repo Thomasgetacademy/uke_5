@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        table, tr, td, th {
+            border: 1px solid lightgray;
+            border-collapse: collapse;
+        }
+
+        td, th {
+            padding: 4px;
+        }
+
+        th {
+            background-color: darkblue;
+            border: 1px solid darkblue;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+<table id="tasksTable"></table>
+<p>
+    <input id="taskDescription" type="text" placeholder="Oppgave Tekst"/>
+    <input id="personName" type="text" placeholder="Person Navn"/>
+    <button onclick="addTask()">Legg til oppgave</button>
+</p>
+
+<script src="index.js"></script>
+</body>
+</html>

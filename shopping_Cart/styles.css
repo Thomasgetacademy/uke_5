@@ -1,0 +1,29 @@
+body {
+    background-color: rgba(127, 255, 212, 0.706);
+}
+
+h2 {
+    display: inline;
+}
+
+.listItem {
+    margin: 15px;
+}
+
+.listButtons {
+    display: none;
+    margin-left: 10px;
+    cursor: pointer;
+    border: none;
+    text-shadow: 2px 2px green;
+    background-color: rgba(0, 0, 0, 0);
+ } 
+
+ .listButtons:hover {
+    font-size: 15px;
+ }
+
+.listItem:hover .listButtons {
+    display: inline;
+} 
+
