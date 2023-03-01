@@ -2,13 +2,15 @@ body {
     background-color: pink;
 }
 
-table {
+table.tr {
     /* border-spacing: 0; */
+    display: inline-block;
 }
 
 td {
     background-color: white;
     padding: 0;
+    grid-row: 1 span;
 }
 
 td.room {
@@ -39,3 +41,7 @@ td.high {
 td.low {
     height: 10px;
 }
+/* 
+#app {
+    display: inline-block;
+} */
